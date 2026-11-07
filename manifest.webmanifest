@@ -1,0 +1,65 @@
+{
+  "name": "101 استراتيجية في التعلم النشط",
+  "short_name": "101 تعلم نشط",
+  "description": "دليل تفاعلي مصور يضم 101 استراتيجية تعلم نشط مع أمثلة توضيحية ومفضلة ومشاركة انتقائية.",
+  "lang": "ar",
+  "dir": "rtl",
+  "id": "./",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": [
+    "standalone"
+  ],
+  "background_color": "#f4f9fc",
+  "theme_color": "#126b8b",
+  "orientation": "any",
+  "categories": [
+    "education",
+    "productivity"
+  ],
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "استراتيجيات التعلم",
+      "short_name": "الاستراتيجيات",
+      "url": "./index.html#strategyGrid",
+      "icons": [
+        {
+          "src": "icons/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "الكتيب الرقمي",
+      "short_name": "الكتيب",
+      "url": "./booklet.html",
+      "icons": [
+        {
+          "src": "icons/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ]
+}
